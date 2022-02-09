@@ -25,3 +25,19 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+// BTN
+.btn-lg-blue-bckg {
+    display: inline-block;
+    padding: 3px 60px;
+    color: $secondary_color;
+    background-color: $primary_color;
+    border: 2px solid $primary_color;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+    &:hover {
+        background-color: darken($primary_color, 10%);
+        border-color: darken($primary_color, 10%);
+    }
+}
