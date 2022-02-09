@@ -5,5 +5,9 @@
 @endsection
 
 @section('main_content')
-    <h1>main content</h1>
+    
+<section class="jumbotron">
+    <img class="jumbo-img" src="{{ asset('/img/jumbotron.jpg') }}" alt="Jumbotron">
+</section>
+
 @endsection
