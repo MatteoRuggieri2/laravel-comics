@@ -32,27 +32,35 @@ a {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
 }
-
 .btn-lg-blue-bckg:hover {
   background-color: #0268c6;
   border-color: #0268c6;
+}
+
+.btn-blue-border {
+  display: inline-block;
+  padding: 10px 14px;
+  color: #ffffff;
+  border: 2px solid #0282f9;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+}
+.btn-blue-border:hover {
+  background-color: #0282f9;
 }
 
 header {
   color: black;
   width: 100%;
 }
-
 header .pre-header {
   background-color: #0282f9;
   color: #ffffff;
   text-align: right;
 }
-
 header .pre-header span .pre-header-info {
   margin: 0 5px;
 }
-
 header nav {
   display: flex;
   justify-content: space-between;
@@ -60,28 +68,23 @@ header nav {
   height: 100%;
   height: 120px;
 }
-
 header nav .logo {
   width: 80px;
 }
-
 header nav ul li {
   display: inline-block;
   line-height: 116px;
   padding-bottom: 4px;
   text-transform: uppercase;
 }
-
 header nav ul li.selected {
   color: #0282f9;
   border-bottom: 4px solid #0282f9;
   padding-bottom: 0px;
 }
-
 header nav ul li:hover {
   color: #0268c6;
 }
-
 header nav ul li a {
   margin: 0 20px;
   font-size: 14px;
@@ -91,12 +94,10 @@ main {
   background-color: #1c1c1c;
   color: #ffffff;
 }
-
 main .jumbotron {
   width: 100%;
   height: 400px;
 }
-
 main .jumbotron .jumbo-img {
   width: 100%;
   height: 100%;
@@ -105,12 +106,10 @@ main .jumbotron .jumbo-img {
   -o-object-position: center top;
      object-position: center top;
 }
-
 main .container {
   text-align: center;
   padding-bottom: 20px;
 }
-
 main .container .wrapper {
   width: 100%;
   padding: 50px 0 10px;
@@ -118,7 +117,6 @@ main .container .wrapper {
   display: flex;
   flex-wrap: wrap;
 }
-
 main .container .wrapper .main-title {
   padding: 8px 30px;
   font-size: 30px;
@@ -129,19 +127,16 @@ main .container .wrapper .main-title {
   left: 0;
   transform: translateY(-50%);
 }
-
 main .container .wrapper .single-series-container {
   width: calc(16.6666666667% - 30px);
   margin: 10px 15px;
   overflow: hidden;
 }
-
 main .container .wrapper .single-series-container .series-img-container {
   width: 100%;
   height: 200px;
   overflow: hidden;
 }
-
 main .container .wrapper .single-series-container h2 {
   padding: 20px 0;
   font-family: "Segoe UI", sans-serif;
@@ -151,32 +146,88 @@ main .container .wrapper .single-series-container h2 {
   text-transform: uppercase;
 }
 
-footer .pre-footer {
+footer section.pre-footer {
   width: 100%;
   padding: 50px 0;
   background-color: #0282f9;
   color: #ffffff;
   font-family: "Segoe UI", sans-serif;
 }
-
-footer .pre-footer .container .wrapper {
+footer section.pre-footer .container .wrapper {
   display: flex;
   justify-content: space-around;
 }
-
-footer .pre-footer .container .wrapper .pre-footer-object {
+footer section.pre-footer .container .wrapper .pre-footer-object {
   vertical-align: middle;
 }
-
-footer .pre-footer .container .wrapper .pre-footer-object .object-img {
+footer section.pre-footer .container .wrapper .pre-footer-object .object-img {
   height: 50px;
   max-width: 60px;
   width: auto;
   margin-right: 10px;
   vertical-align: middle;
 }
-
-footer .pre-footer .container .wrapper .pre-footer-object .object-name {
+footer section.pre-footer .container .wrapper .pre-footer-object .object-name {
   text-transform: uppercase;
 }
-
+footer section.footer-link-list {
+  padding: 50px 0;
+  color: #ffffff;
+  background-image: url("../img/footer-bg.jpg");
+  overflow: hidden;
+}
+footer section.footer-link-list .container .wrapper {
+  position: relative;
+}
+footer section.footer-link-list .container .wrapper .link-list {
+  display: flex;
+}
+footer section.footer-link-list .container .wrapper .link-list .list-container {
+  margin: 0 20px;
+}
+footer section.footer-link-list .container .wrapper .link-list .list-container h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+footer section.footer-link-list .container .wrapper .link-list .list-container ul {
+  margin-bottom: 20px;
+}
+footer section.footer-link-list .container .wrapper .link-list .list-container ul li {
+  margin: 5px 0;
+  color: grey;
+  font-size: 12px;
+  font-family: "Segoe UI", sans-serif;
+}
+footer section.footer-link-list .container .wrapper .big-logo {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+footer section.footer-socials {
+  padding: 40px 0;
+  background-color: #303030;
+  color: #ffffff;
+}
+footer section.footer-socials .container .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer section.footer-socials .container .wrapper .socials-container {
+  display: flex;
+  align-items: center;
+}
+footer section.footer-socials .container .wrapper .socials-container .follow-us {
+  color: #0282f9;
+  font-size: 20px;
+}
+footer section.footer-socials .container .wrapper .socials-container ul {
+  margin-left: 20px;
+  display: flex;
+}
+footer section.footer-socials .container .wrapper .social-icon {
+  width: 40px;
+  margin: 0 10px;
+}

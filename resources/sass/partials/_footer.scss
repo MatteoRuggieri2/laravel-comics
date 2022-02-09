@@ -1,35 +1,118 @@
 footer {
 
-    .pre-footer {
-        width: 100%;
-        padding: 50px 0;
-        background-color: $primary_color;
-        color: $secondary_color;
-        font-family: 'Segoe UI', sans-serif;
+    section {
 
-        .container {
-
-            .wrapper {
-                display: flex;
-                justify-content: space-around;
-
-                .pre-footer-object {
-                    vertical-align: middle;
-
-                    .object-img {
-                        height: 50px;
-                        max-width: 60px;
-                        width: auto;
-                        margin-right: 10px;
+        &.pre-footer {
+            width: 100%;
+            padding: 50px 0;
+            background-color: $primary_color;
+            color: $secondary_color;
+            font-family: 'Segoe UI', sans-serif;
+    
+            .container {
+    
+                .wrapper {
+                    display: flex;
+                    justify-content: space-around;
+    
+                    .pre-footer-object {
                         vertical-align: middle;
+    
+                        .object-img {
+                            height: 50px;
+                            max-width: 60px;
+                            width: auto;
+                            margin-right: 10px;
+                            vertical-align: middle;
+                        }
+    
+                        .object-name {
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.footer-link-list {
+            padding: 50px 0;
+            color: $secondary_color;
+            background-image: url('../img/footer-bg.jpg');
+            overflow: hidden;
+
+            .container {
+                
+                .wrapper {
+                    position: relative;
+
+                    .link-list{
+                        display: flex;
+
+                        .list-container {
+                            margin: 0 20px;
+
+                            h3 {
+                                margin-bottom: 15px;
+                                font-size: 20px;
+                                text-transform: uppercase;
+                            }
+
+                            ul {
+                                margin-bottom: 20px;
+
+                                li {
+                                    margin: 5px 0;
+                                    color: grey;
+                                    font-size: 12px;
+                                    font-family: 'Segoe UI', sans-serif;
+                                }
+                            }
+                        }
                     }
 
-                    .object-name {
-                        text-transform: uppercase;
+                    .big-logo {
+                        position: absolute;
+                        top: 50%;
+                        right: 0;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+
+        &.footer-socials {
+            padding: 40px 0;
+            background-color: #303030;
+            color: $secondary_color;
+            
+            .container {
+
+                .wrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .socials-container {
+                        display: flex;
+                        align-items: center;
+
+                        .follow-us {
+                            color: $primary_color;
+                            font-size: 20px;
+                        }
+
+                        ul {
+                            margin-left: 20px;
+                            display: flex;
+                        }
+                    }
+                    
+                    .social-icon {
+                        width: 40px;
+                        margin: 0 10px;
                     }
                 }
             }
         }
     }
-
 }

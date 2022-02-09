@@ -41,3 +41,16 @@ a {
         border-color: darken($primary_color, 10%);
     }
 }
+
+.btn-blue-border {
+    display: inline-block;
+    padding: 10px 14px;
+    color: $secondary_color;
+    border: 2px solid $primary_color;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+
+    &:hover {
+        background-color: $primary_color;
+    }
+}
