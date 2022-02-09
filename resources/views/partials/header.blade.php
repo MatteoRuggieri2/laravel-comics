@@ -12,7 +12,7 @@
     <div class="container">
         <nav>
             <div class="logo">
-                <img src="{{ asset('/img/dc-logo.png') }}" alt="">
+                <img src="{{ asset('/img/dc-logo.png') }}" alt="DC Logo">
             </div>
             <ul>
                 <li><a href="#">characters</a></li>
