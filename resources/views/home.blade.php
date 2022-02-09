@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('page_title')
-    Home
+    Home - DC Comics
 @endsection
 
 @section('main_content')

@@ -1,6 +1,74 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  color: black;
+  width: 100%;
+  height: 120px;
+}
+
+header .pre-header {
+  background-color: #0282f9;
+  color: #ffffff;
+  text-align: right;
+}
+
+header .pre-header span .pre-header-info {
+  margin: 0 5px;
+}
+
+header .logo {
+  width: 80px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header ul li {
+  display: inline-block;
+  line-height: 116px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+}
+
+header ul li.selected {
+  color: #0282f9;
+  border-bottom: 4px solid #0282f9;
+  padding-bottom: 0px;
+}
+
+header ul li:hover {
+  color: #0268c6;
+}
+
+header ul li a {
+  margin: 0 20px;
+  font-size: 14px;
 }
 
