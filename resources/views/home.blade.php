@@ -27,9 +27,6 @@
                         </a>
                     </div>
                 @endforeach    
-                    
-
-                {{-- {{ dd($comics_array) }} --}}
 
             </div>
             <a class="btn-lg-blue-bckg" href="#">LOAD MORE</a>
