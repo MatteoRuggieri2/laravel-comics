@@ -19,7 +19,7 @@
                     
                     {{-- Single series --}}
                     <div class="single-series-container">
-                        <a href="#">
+                        <a href="{{ route('comicinfo') }}">
                             <div class="series-img-container">
                                 <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
                             </div>

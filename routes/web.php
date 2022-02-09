@@ -37,3 +37,9 @@ Route::get('/movies', function () {
 
     return view('movies');
 })->name('movies');
+
+
+Route::get('/comic-info', function () {
+
+    return view('comicinfo');
+})->name('comicinfo');
