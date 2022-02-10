@@ -10,7 +10,7 @@
     @include('components.jumbotron')
 
     {{-- Current Series --}}
-    <section>
+    <section class="current-series-sect">
         <div class="container">
             <div class="wrapper">
                 <span class="main-title">CURRENT SERIES</span>

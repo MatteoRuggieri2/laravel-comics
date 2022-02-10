@@ -10,6 +10,11 @@
   margin: auto;
 }
 
+.small-container {
+  width: 55%;
+  margin: auto;
+}
+
 img {
   width: 100%;
 }
@@ -109,18 +114,18 @@ main .jumbotron .jumbo-img {
   -o-object-position: center top;
      object-position: center top;
 }
-main .container {
+main .current-series-sect .container {
   text-align: center;
   padding-bottom: 20px;
 }
-main .container .wrapper {
+main .current-series-sect .container .wrapper {
   width: 100%;
   padding: 50px 0 10px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
 }
-main .container .wrapper .main-title {
+main .current-series-sect .container .wrapper .main-title {
   padding: 8px 30px;
   font-size: 30px;
   color: #ffffff;
@@ -130,17 +135,17 @@ main .container .wrapper .main-title {
   left: 0;
   transform: translateY(-50%);
 }
-main .container .wrapper .single-series-container {
+main .current-series-sect .container .wrapper .single-series-container {
   width: calc(16.6666666667% - 30px);
   margin: 10px 15px;
   overflow: hidden;
 }
-main .container .wrapper .single-series-container .series-img-container {
+main .current-series-sect .container .wrapper .single-series-container .series-img-container {
   width: 100%;
   height: 200px;
   overflow: hidden;
 }
-main .container .wrapper .single-series-container h2 {
+main .current-series-sect .container .wrapper .single-series-container h2 {
   padding: 20px 0;
   font-family: "Segoe UI", sans-serif;
   font-weight: lighter;
@@ -171,6 +176,48 @@ main .pre-footer .container .wrapper .pre-footer-object .object-img {
 }
 main .pre-footer .container .wrapper .pre-footer-object .object-name {
   text-transform: uppercase;
+}
+main .comic-info-sect {
+  background-color: white;
+  color: black;
+}
+main .comic-info-sect .comic-book {
+  background-color: #0282f9;
+  color: white;
+}
+main .comic-info-sect .comic-book .small-container {
+  min-height: 80px;
+  position: relative;
+}
+main .comic-info-sect .comic-book .small-container .comic-thumb-container {
+  width: 200px;
+  border: 1px solid white;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+main .comic-info-sect .comic-book .small-container .comic-thumb-container .comic-thumb-content {
+  position: relative;
+}
+main .comic-info-sect .comic-book .small-container .comic-thumb-container .comic-thumb-content img {
+  display: block;
+}
+main .comic-info-sect .comic-book .small-container .comic-thumb-container .comic-thumb-content .comic-target {
+  background-color: #00a9d9;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+main .comic-info-sect .comic-book .small-container .comic-thumb-container .comic-thumb-content .comic-type {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main .comic-info-sect .comic-book .small-container .comic-thumb-container .comic-thumb-content .view-gallery {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 footer section.footer-link-list {

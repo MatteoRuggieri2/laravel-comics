@@ -2,6 +2,7 @@ main {
     background-color: #1c1c1c;
     color: $secondary_color;
 
+    // Jumbotron
     .jumbotron {
         width: 100%;
         height: 400px;
@@ -14,51 +15,56 @@ main {
         }
     }
 
-    .container {
-        text-align: center;
-        padding-bottom: 20px;
-        
-        .wrapper {
-            width: 100%;
-            padding: 50px 0 10px;
-            position: relative;
-            display: flex;
-            flex-wrap: wrap;
+    // Container Comics List
+    .current-series-sect{
+
+        .container {
+            text-align: center;
+            padding-bottom: 20px;
             
-            .main-title {
-                padding: 8px 30px;
-                font-size: 30px;
-                color: $secondary_color;
-                background-color: $primary_color;
-                position: absolute;
-                top: 0;
-                left: 0;
-                transform: translateY(-50%);
-            }
-
-            .single-series-container {
-                width: calc( (100% / 6) - 30px );
-                margin: 10px 15px;
-                overflow: hidden;
-
-                .series-img-container {
-                    width: 100%;
-                    height: 200px;
-                    overflow: hidden;
+            .wrapper {
+                width: 100%;
+                padding: 50px 0 10px;
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                
+                .main-title {
+                    padding: 8px 30px;
+                    font-size: 30px;
+                    color: $secondary_color;
+                    background-color: $primary_color;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transform: translateY(-50%);
                 }
 
-                h2 {
-                    padding: 20px 0;
-                    font-family: "Segoe UI", sans-serif;
-                    font-weight: lighter;
-                    font-size: 16px;
-                    text-align: left;
-                    text-transform: uppercase;
+                .single-series-container {
+                    width: calc( (100% / 6) - 30px );
+                    margin: 10px 15px;
+                    overflow: hidden;
+
+                    .series-img-container {
+                        width: 100%;
+                        height: 200px;
+                        overflow: hidden;
+                    }
+
+                    h2 {
+                        padding: 20px 0;
+                        font-family: "Segoe UI", sans-serif;
+                        font-weight: lighter;
+                        font-size: 16px;
+                        text-align: left;
+                        text-transform: uppercase;
+                    }
                 }
             }
         }
     }
 
+    // Pre-Footer
     .pre-footer {
         width: 100%;
         padding: 50px 0;
@@ -85,6 +91,57 @@ main {
 
                     .object-name {
                         text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+
+    .comic-info-sect {
+        background-color: white;
+        color: black;
+
+        .comic-book {
+            background-color: $primary_color;
+            color: white;
+
+            .small-container {
+                min-height: 80px;
+                position: relative;
+
+                .comic-thumb-container {
+                    width: 200px;
+                    border: 1px solid white;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 0;
+
+                    .comic-thumb-content {
+                        position: relative;
+
+                        img {
+                            display: block;
+                        }
+
+                        .comic-target {
+                            background-color: #00a9d9;
+                            text-align: center;
+                            text-transform: uppercase;
+                            font-weight: lighter;
+                        }
+
+                        .comic-type {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+
+                        .view-gallery {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                        }
                     }
                 }
             }
