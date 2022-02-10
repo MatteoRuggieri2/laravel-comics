@@ -101,6 +101,7 @@ main {
         background-color: white;
         color: black;
 
+        // Comic Book
         .comic-book {
             background-color: $primary_color;
             color: white;
@@ -143,6 +144,37 @@ main {
                             width: 100%;
                         }
                     }
+                }
+            }
+        }
+
+        // Comic Description
+        .comic-description {
+
+            .small-container {
+                display: flex;
+
+                .price-box {
+                    display: flex;
+
+                    .price-info {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    .check-availaibility {
+                        display: block;
+                        text-align: center;
+                    }
+                }
+                
+                .adv-title {
+                    text-transform: uppercase;
+                    text-align: right;
+                }
+
+                img {
+                    display: block;
                 }
             }
         }

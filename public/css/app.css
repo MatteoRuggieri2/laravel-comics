@@ -15,6 +15,16 @@
   margin: auto;
 }
 
+.col-30 {
+  width: 30%;
+  border: 3px solid green;
+}
+
+.col-70 {
+  width: 70%;
+  border: 3px solid green;
+}
+
 img {
   width: 100%;
 }
@@ -218,6 +228,27 @@ main .comic-info-sect .comic-book .small-container .comic-thumb-container .comic
   bottom: 0;
   left: 0;
   width: 100%;
+}
+main .comic-info-sect .comic-description .small-container {
+  display: flex;
+}
+main .comic-info-sect .comic-description .small-container .price-box {
+  display: flex;
+}
+main .comic-info-sect .comic-description .small-container .price-box .price-info {
+  display: flex;
+  justify-content: space-between;
+}
+main .comic-info-sect .comic-description .small-container .price-box .check-availaibility {
+  display: block;
+  text-align: center;
+}
+main .comic-info-sect .comic-description .small-container .adv-title {
+  text-transform: uppercase;
+  text-align: right;
+}
+main .comic-info-sect .comic-description .small-container img {
+  display: block;
 }
 
 footer section.footer-link-list {

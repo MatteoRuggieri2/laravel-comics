@@ -40,7 +40,34 @@
         {{-- Comic Description --}}
         <div class="comic-description">
             <div class="small-container">
-                comic description
+
+                <div class="col-70">
+                    <h2>{{ $comic_to_show['title'] }}</h2>
+                    <div class="price-box">
+                        <div class="col-70">
+                           <div class="price-info">
+                                <span>{{ $comic_to_show['price'] }}</span>
+                                <span>available</span>
+                           </div>
+                        </div>
+
+                        <div class="col-30">
+                            <span class="check-availaibility">check</span>
+                        </div>
+                    </div>
+                    <p>{{ $comic_to_show['description'] }}</p>
+                </div>
+
+                {{-- ADV --}}
+                <div class="col-30">
+                    <div class="adv-title">
+                        advertisement
+                    </div>
+
+                    <div>
+                        <img src="{{ asset('/img/adv.jpg') }}" alt="adv image">
+                    </div>
+                </div>
             </div>
         </div>
 
