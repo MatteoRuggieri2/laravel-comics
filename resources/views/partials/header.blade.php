@@ -16,7 +16,7 @@
             </div>
             <ul>
                 <li><a href="{{ route('characters') }}">characters</a></li>
-                <li class="selected"><a href="#">comics</a></li>
+                <li class="active"><a href="#">comics</a></li>
                 <li><a href="{{ route('movies') }}">movies</a></li>
                 <li><a href="#">tv</a></li>
                 <li><a href="#">games</a></li>

@@ -5,6 +5,9 @@
 @endsection
 
 @section('main_content')
+
+    {{-- Jumbotron --}}
+    @include('components.jumbotron')
     
     <h1>Sezione delle info del singolo fumetto</h1>
 

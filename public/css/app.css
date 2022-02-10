@@ -73,21 +73,24 @@ header nav .logo {
 }
 header nav ul li {
   display: inline-block;
-  line-height: 116px;
   padding-bottom: 4px;
   text-transform: uppercase;
 }
-header nav ul li.selected {
+header nav ul li.active {
   color: #0282f9;
-  border-bottom: 4px solid #0282f9;
   padding-bottom: 0px;
 }
 header nav ul li:hover {
   color: #0268c6;
 }
 header nav ul li a {
+  display: inline-block;
   margin: 0 20px;
   font-size: 14px;
+  line-height: 116px;
+}
+header nav ul li.active a {
+  border-bottom: 4px solid #0282f9;
 }
 
 main {

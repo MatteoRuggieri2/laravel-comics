@@ -31,13 +31,11 @@ header {
         
             li {
                 display: inline-block;
-                line-height: 116px;
                 padding-bottom: 4px;
                 text-transform: uppercase;
                 
-                &.selected {
+                &.active {
                     color: $primary_color;
-                    border-bottom: 4px solid $primary_color;
                     padding-bottom: 0px;
                 }
                 
@@ -46,8 +44,14 @@ header {
                 }
                 
                 a {
+                    display: inline-block;
                     margin: 0 20px;
                     font-size: 14px;
+                    line-height: 116px;
+                }
+
+                &.active a {
+                    border-bottom: 4px solid $primary_color;
                 }
             }
         }
