@@ -97,6 +97,7 @@ main {
         }
     }
 
+    // Comic Info
     .comic-info-sect {
         background-color: white;
         color: black;
@@ -150,24 +151,44 @@ main {
 
         // Comic Description
         .comic-description {
+            padding: 50px 0;
 
             .small-container {
                 display: flex;
 
-                .price-box {
-                    display: flex;
+                .wrapper {
+                    padding-right: 40px;
 
-                    .price-info {
+                    .comic-title {
+                        text-transform: uppercase;
+                        margin-bottom: 20px;
+                    }
+    
+                    // Price box
+                    .price-box {
                         display: flex;
-                        justify-content: space-between;
-                    }
-
-                    .check-availaibility {
-                        display: block;
-                        text-align: center;
-                    }
+                        margin-bottom: 10px;
+                        color: $secondary_color;
+                        border-bottom: 1px solid grey;
+    
+                        .price-info {
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 10px 20px;
+                            background-color: #55ba59;
+                            border-right: 1px solid gray;
+                        }
+    
+                        .check-availaibility {
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #55ba59;
+                        }
+                    } 
                 }
-                
+
                 .adv-title {
                     text-transform: uppercase;
                     text-align: right;
@@ -175,6 +196,37 @@ main {
 
                 img {
                     display: block;
+                }
+            }
+        }
+
+        // Comic Details
+        .comic-details {
+            background-color: #f6f6f6;
+
+            .comic-info-list {
+                display: flex;
+                justify-content: space-between;
+                padding: 30px 0 100px 0;
+
+                h3 {
+                    border-bottom: 1px solid grey;
+                    padding-bottom: 20px;
+                }
+
+                ul {
+
+                    li {
+                        padding: 10px 0;
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 12px;
+                        border-bottom: 1px solid grey;
+
+                        p {
+                            max-width: 70%;
+                        }
+                    }
                 }
             }
         }
