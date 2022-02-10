@@ -6,8 +6,10 @@
 
 @section('main_content')
     
+    {{-- Jumbotron --}}
     @include('components.jumbotron')
 
+    {{-- Current Series --}}
     <section>
         <div class="container">
             <div class="wrapper">
@@ -21,5 +23,8 @@
             <a class="btn-lg-blue-bckg" href="#">LOAD MORE</a>
         </div>
     </section>
+
+    {{-- Pre-Footer --}}
+    @include('components.prefooter')
 
 @endsection

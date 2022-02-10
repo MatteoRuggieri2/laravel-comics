@@ -148,31 +148,31 @@ main .container .wrapper .single-series-container h2 {
   text-align: left;
   text-transform: uppercase;
 }
-
-footer section.pre-footer {
+main .pre-footer {
   width: 100%;
   padding: 50px 0;
   background-color: #0282f9;
   color: #ffffff;
   font-family: "Segoe UI", sans-serif;
 }
-footer section.pre-footer .container .wrapper {
+main .pre-footer .container .wrapper {
   display: flex;
   justify-content: space-around;
 }
-footer section.pre-footer .container .wrapper .pre-footer-object {
+main .pre-footer .container .wrapper .pre-footer-object {
   vertical-align: middle;
 }
-footer section.pre-footer .container .wrapper .pre-footer-object .object-img {
+main .pre-footer .container .wrapper .pre-footer-object .object-img {
   height: 50px;
   max-width: 60px;
   width: auto;
   margin-right: 10px;
   vertical-align: middle;
 }
-footer section.pre-footer .container .wrapper .pre-footer-object .object-name {
+main .pre-footer .container .wrapper .pre-footer-object .object-name {
   text-transform: uppercase;
 }
+
 footer section.footer-link-list {
   padding: 50px 0;
   color: #ffffff;
