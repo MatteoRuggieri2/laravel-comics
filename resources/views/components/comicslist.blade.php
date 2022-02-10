@@ -2,7 +2,7 @@
                     
     {{-- Single series --}}
     <div class="single-series-container">
-        <a href="{{ route('comicinfo') }}">
+        <a href="{{ route('comicinfo', ['id' => $comic['id']]) }}">
             <div class="series-img-container">
                 <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
             </div>
