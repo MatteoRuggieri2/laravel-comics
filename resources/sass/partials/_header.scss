@@ -6,11 +6,16 @@ header {
         background-color: $primary_color;
         color: $secondary_color;
         text-align: right;
+        display: flex;
+        align-items: center;
+        padding-bottom: 4px;
 
         span {
 
-            .pre-header-info {
-                margin: 0 5px;
+            &.pre-header-info {
+                margin-left: 50px;
+                font-size: 11px;
+                font-family: Arial, Helvetica, sans-serif;
             }
         }
     }

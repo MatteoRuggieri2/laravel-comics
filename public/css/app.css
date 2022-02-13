@@ -74,9 +74,14 @@ header .pre-header {
   background-color: #0282f9;
   color: #ffffff;
   text-align: right;
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
 }
-header .pre-header span .pre-header-info {
-  margin: 0 5px;
+header .pre-header span.pre-header-info {
+  margin-left: 50px;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header nav {
   display: flex;
